@@ -69,7 +69,7 @@ export default function HomePage() {
           Welcome to BeginnersAppDev
         </h1>
       </div>
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
+      <div className="w-full flex items-center justify-center mb-32 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
         <div className="mb-6">
           <h2 className="mt-10 mb-3 text-2xl font-semibold">Users List</h2>
           <table className="w-full border-collapse border border-gray-200">
