@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - feat/style-branch
 
 jobs:
   deploy-on-vps:
