@@ -63,7 +63,7 @@ export default function HomePage() {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <main className="flex flex-col items-center justify-between">
+    <main >
       <div className="flex flex-col items-center justify-center py-2">
         <h1 className="mt-4 text-4xl font-bold text-white">
           Welcome to BeginnersAppDev

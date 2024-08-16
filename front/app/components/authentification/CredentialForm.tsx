@@ -25,7 +25,8 @@ export function CredentialsForm(props: CredentialsFormProps) {
       const password = data.get("password") as string;
 
       // Simule la validation de l'utilisateur
-      const isValidUser = email === "test@example.com" && password === "password123";
+      const isValidUser =
+        email === "test@example.com" && password === "password123";
 
       if (isValidUser) {
         router.push("/dashboard");
@@ -41,11 +42,11 @@ export function CredentialsForm(props: CredentialsFormProps) {
 
   return (
     <form
-      className="w-full mt-8 text-xl text-black font-semibold flex flex-col"
+      className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm mx-auto flex flex-col items-center"
       onSubmit={handleSubmit}
     >
       {error && (
-        <span className="p-4 mb-2 text-lg font-semibold text-white bg-red-500 rounded-md">
+        <span className="p-4 mb-4 text-lg font-semibold text-white bg-red-500 rounded-md w-full text-center">
           {error}
         </span>
       )}
@@ -54,7 +55,7 @@ export function CredentialsForm(props: CredentialsFormProps) {
         name="email"
         placeholder="Email"
         required
-        className="w-full px-4 py-4 mb-4 border border-gray-300 rounded-md"
+        className="w-full px-4 py-4 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-800"
       />
       <ResetPasswordButton />
       <input
@@ -62,12 +63,12 @@ export function CredentialsForm(props: CredentialsFormProps) {
         name="password"
         placeholder="Password"
         required
-        className="w-full px-4 py-4 mb-4 border border-gray-300 rounded-md"
+        className="w-full px-4 py-4 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-800"
       />
 
       <button
         type="submit"
-        className="w-2/3 h-12 px-4 mt-4 text-lg text-white transition-colors duration-150 bg-blue-600 rounded-lg focus:shadow-outline hover:bg-blue-700 mx-auto"
+        className="w-full h-12 px-4 mt-4 text-lg text-white transition-colors duration-150 bg-gray-500 rounded-lg focus:shadow-outline hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
         disabled={isLoading}
       >
         {isLoading ? "Logging in..." : "Log in"}
