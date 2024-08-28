@@ -3,7 +3,7 @@
 **Conceptrice Développeuse d'Applications - Spécialisation DevOps**
 
 ## Parcours de Reconversion
-Après une carrière riche et diversifiée dans différents secteurs tels que l'ergothérapie, la bijouterie, le textile promotionnel, et la réflexologie, j'ai entrepris une reconversion vers le développement web. Cette décision a été motivée par une envie d'aller au-delà du code et de m'orienter vers la conception d'applications complètes.
+Après une carrière riche et diversifiée dans différents secteurs tels que l'ergothérapie, la bijouterie, le textile promotionnel, et la réflexologie — domaines où j'ai eu l'opportunité de gérer mes propres projets et de développer un sens aigu de l'entrepreneuriat — j'ai entrepris une reconversion vers le développement web. Cette décision a été motivée par une envie d'aller au-delà du code et de m'orienter vers la conception d'applications complètes.
 
 - **2021 - 2022 :** Formation à la **Wild Code School** (Lyon), Développeuse Web & Web mobile, mettant l'accent sur JavaScript, React, et les fondamentaux du développement web.
 - **2023 - 2024 :** Formation à **Simplon** pour le titre de **Conceptrice Développeuse d'Applications** avec une spécialisation en DevOps, afin d'approfondir mes compétences en gestion de projet et en développement d'applications.

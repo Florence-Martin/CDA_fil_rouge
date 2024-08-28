@@ -9,6 +9,14 @@ Nous avons choisi de développer le Front-End de notre application Beginners App
 Nous renforcerons la sécurité des données en transit entre le client et le serveur en mettant en place des tunnels sécurisés. Le protocole **HTTPS**, associé aux standards de sécurité **TLS** (Transport Layer Security) et **HSTS** (HTTP Strict Transport Security), garantira que toutes les communications dont la première entre l'application et nos serveurs seront chiffrées forçant l’utilisation de HTTPS.  
 Cela protégera les données des utilisateurs contre les interceptions malveillantes et assurera la confidentialité des informations échangées, même sur des réseaux moins sécurisés.
 
+
+### Protection des Entêtes avec Helmet
+
+Nous protégerons nos applications Express.js en utilisant **Helmet**, un ensemble de middleware pour sécuriser les applications Express en définissant divers en-têtes HTTP. Cela inclura la protection contre les attaques **XSS** (Cross-Site Scripting), le contrôle de la politique de contenu, la prévention de l'ouverture de fenêtres contextuelles indésirables (**CSP** (Content Security Policy) ), entre autres.  
+Grâce à **NextJS**, la mise en œuvre de ces mesures de sécurité sera simplifiée, nous permettant de garantir une base solide pour la protection de l’environnement numérique de nos utilisateurs.
+Nous protégerons nos applications Express.js en utilisant **Helmet**, un ensemble de middleware pour sécuriser les applications Express en définissant divers en-têtes HTTP. Cela inclura la protection contre les attaques **XSS** (Cross-Site Scripting), le contrôle de la politique de contenu, la prévention de l'ouverture de fenêtres contextuelles indésirables (**CSP** (Content Security Policy) ), entre autres.  
+Grâce à NextJS, la mise en œuvre de ces mesures de sécurité sera simplifiée, nous permettant de garantir une base solide pour la protection de l’environnement numérique de nos utilisateurs.
+
 ### Nettoyage des Formulaires et Sanétization
 
 Nous appliquerons des méthodes de nettoyage et de sanitization sur les données saisies par les utilisateurs pour prévenir les injections **SQL** et **XSS**. Toutes les entrées utilisateur seront validées et échappées pour garantir l'intégrité des données et la sécurité de l'application.

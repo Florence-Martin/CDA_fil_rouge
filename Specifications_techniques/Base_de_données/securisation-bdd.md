@@ -46,7 +46,7 @@ Les mots de passe sont stockés de manière sécurisée, utilisant la fonction *
 
 • **Méthode de Recouvrement d’Accès**
 
-En cas de perte ou de vol des mots de passe, nous fournissons un lien de réinitialisation à usage unique (validité de 24h), assurant une récupération sécurisée.
+En cas de perte ou de vol de mot de passe, un lien de réinitialisation à usage unique, valable 24 heures, est envoyé. Une vérification supplémentaire est effectuée via une question de sécurité ou un code envoyé par SMS ou e-mail de secours.
 
 --- 
 
@@ -70,6 +70,9 @@ Cette stratégie sera revue en fonction de la performance du système de stockag
 
 - **Contrôle du partage:** Des contrôles d'accès seront mis en place au niveau applicatif pour permettre aux utilisateurs de partager des notes avec des permissions spécifiques (lecture, écriture). Ceci rajoutera une couche supplémentaire à qui peut accéder à certaines données dans la base de données.
 - **Journal du partage de note:** Une journalisation du partage de note sera mise en place afin de savoir quelles notes a été envoyé à quel utilisateur ainsi que la réponse de ce partage, s’il a été accepté, ou refusé. Cette journalisation nous permettra aussi d’être informé en cas d’activité anormale et y remédier.
+
+
+En appliquant ces mesures de sécurité, nous réduisons la fuite de données, l'accés non-autorisé à ces ressources. Cette stratégie sera réévaluée régulièrement pour répondre aux Vulnérabilités exposées connues (CVE) et aux changements technologiques. La sécurité de la base de données s'adaptera aux changements et aux ressources accumulés sur le site.
 
 
 [🔙 Retour à la Table des matières](../README.md)

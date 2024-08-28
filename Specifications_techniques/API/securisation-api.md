@@ -10,8 +10,8 @@ Ces informations soulèvent des questions de sécurité quant à la protection d
 
 ### Authentification et Gestion des Sessions avec OAuth 2.0 et JWT
 
-Sécurisez les APIs en utilisant **OAuth 2.0** pour l’authentification et les JSON Web Tokens (**JWT**) pour la gestion des sessions.
-Sécurisez les APIs en utilisant **OAuth 2.0** pour l’authentification et les JSON Web Tokens (**JWT**) pour la gestion des sessions.
+Sécuriser les APIs en utilisant **OAuth 2.0** pour l’authentification et les JSON Web Tokens (**JWT**) pour la gestion des sessions.
+Sécuriser les APIs en utilisant **OAuth 2.0** pour l’authentification et les JSON Web Tokens (**JWT**) pour la gestion des sessions.
 
 **OAuth 2.0 et JWT** : Bien que mentionnés dans la gestion des sessions, leur application aux APIs assure une couche supplémentaire de sécurité pour l'authentification et la gestion des autorisations, adaptée aux interactions entre services.
 
@@ -19,8 +19,7 @@ Sécurisez les APIs en utilisant **OAuth 2.0** pour l’authentification et les 
 
 **Validation et Sanitization des Requêtes API**:
 
-Assurez-vous que chaque requête API soit scrutée pour valider et assainir son contenu, ciblant efficacement les tentatives d’injections **SQL** et **XSS**.
-Assurez-vous que chaque requête API soit scrutée pour valider et assainir son contenu, ciblant efficacement les tentatives d’injections **SQL** et **XSS**.
+Nous nous assurerons que chaque requête API soit scrutée pour valider et assainir son contenu, ciblant efficacement les tentatives d’injections **SQL** et **XSS**.
 
 **Chiffrement des communications**:
 
@@ -29,7 +28,7 @@ Cela protégera les données des utilisateurs contre les interceptions malveilla
 
 **Limitation du Taux de Requêtes (Rate Limiting)**:
 
-Mettez en place des contrôles stricts sur le nombre de requêtes acceptées pour prévenir les attaques par déni de service (DoS).
+Nous mettrons en place des contrôles stricts sur le nombre de requêtes acceptées pour prévenir les attaques par déni de service (DoS).
 
 ### Protection des Entêtes avec Helmet
 
@@ -42,15 +41,15 @@ Nous utiliserons des **UUID** (Universally Unique IDentifiers) pour renforcer la
 
 ### Transmission Sécurisée des Mots de Passe
 
-Assurez-vous que les mots de passe sont toujours transmis de manière sécurisée, en utilisant des connexions HTTPS pour éviter les interceptions
+Nous veillerons que les mots de passe soient toujours transmis de manière sécurisée, en utilisant des connexions HTTPS pour éviter les interceptions
 
 ### Journalisation des Requêtes API
 
-Enregistrez chaque appel API, y compris les détails de la requête tels que l’adresse IP source, les paramètres de requête, les en-têtes, et les réponses. Cela permet de tracer les actions à travers l’API et de détecter des anomalies comme des tentatives d’injection ou des abus de l’API.
+Chaque appel API sera sauvegardé, y compris les détails de la requête tels que l’adresse IP source, les paramètres de requête, les en-têtes, et les réponses. Cela permet de tracer les actions à travers l’API et de détecter des anomalies comme des tentatives d’injection ou des abus de l’API.
 
 ### Visualisation des end-points API via Swagger
 
-Ensemble de règles et d’outils pour décrire, produire, consommer et visualiser des services web RESTful.
+Ensemble de règles et d’outils pour décrire, produire, consommer et visualiser les endpoints de l'API.
 
 ### Monitoring et Journalisation
 
@@ -62,7 +61,8 @@ Contrôle des permissions et des rôles utilisateurs à chaque demande d’accè
 
 ### Gestion des Rôles avec RBAC (Role-Based Access Control)
 
-Système qui assigne des permissions aux utilisateurs en fonction des rôles qu'ils occupent. Définir les rôles est fondamental pour respecter le principe du moindre privilège, qui vise à limiter les privilèges des utilisateurs uniquement à ce dont ils ont besoin pour accomplir leurs tâches. Ici nous avons défini rôles:
+Système qui assigne des permissions aux utilisateurs en fonction des rôles qu'ils occupent. Définir les rôles est fondamental pour respecter le principe du moindre privilège, qui vise à limiter les privilèges des utilisateurs uniquement à ce dont ils ont besoin pour accomplir leurs tâches.   
+Nous avons défini les rôles suivants :
 
 - Super-administrateur
 
