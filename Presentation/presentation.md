@@ -19,7 +19,7 @@ Après une carrière riche et diversifiée dans différents secteurs tels que l'
   - Design et développement centrés sur l'UX/UI.
 
 ## Compétences Techniques
-- **Langages et Frameworks :** HTML, CSS, JavaScript, React,, TypeScript C#, React, Next.js, Node.js, Express.
+- **Langages et Frameworks :** HTML, CSS, JavaScript, React, TypeScript C#, React, Next.js, Node.js, Express.
 - **Bases de Données :** MySQL & MongoDb
 - **Outils de Design et Prototypage :** Figma, Illustrator.
 - **Outils DevOps :** Docker, GitHub Actions.
