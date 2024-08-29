@@ -91,6 +91,8 @@ const userController = new UserController(userService);
         * /api/users:
         *   get:
         *     summary: Retrieve all users or a specific user by UUID or username
+        *     security:
+        *       - bearerAuth: []
         *     tags:
         *       - users
         *     parameters:

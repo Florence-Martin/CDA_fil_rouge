@@ -1,18 +1,18 @@
 
 ## **Et si c'était à refaire...?**
 
-#### **Erreurs et Challenges :**
-	•	Formation accélérée (5 mois vs 18) : apprentissage et choix 
-   technologiques précipités.
-	•	Gestion de projet (Jira) et conception parfois négligées par 
-   manque de temps.
+#### **Erreurs et Défis :**
+    •   Formation accélérée (5 mois au lieu de 18) : apprentissage et choix technologiques effectués dans la précipitation.
+    •   Gestion de projet (Jira) et conception parfois négligées en raison de contraintes de temps.
 
-#### **Leçons Apprises :**
-	•	Suivre chaque étape de conception et de gestion de projet.
-	•	Prendre le temps de refactorer le code pour améliorer sa 
-   qualité.
+#### **Leçons Retenues :**
+    •   Respecter chaque étape de conception et de gestion de projet.
+    •   Consacrer du temps au refactoring du code pour en améliorer la qualité.
 
 #### **Améliorations Clés :**
-	•	Importance du Refactoring : Prendre le temps de refactorer le code pour maintenir une base de code propre et évolutive.
-	•	Gestion des Projets : L'expérience a renforcé la nécessité de respecter les étapes de conception et de gestion, même sous des délais serrés.
-	•	Approfondissement de la Sécurité : Renforcement des compétences sur la sécurisation des applications et la gestion des vulnérabilités.
+    •   Importance du Refactoring : consacrer du temps à cette tâche pour garantir une base de code propre et maintenable.
+    •   Gestion de Projets : l’expérience a souligné l’importance de suivre rigoureusement les étapes de conception et de gestion, même avec des délais serrés.
+    •   Renforcement de la Sécurité : approfondir les compétences pour sécuriser les applications et gérer les vulnérabilités.
+    •   Optimisation des performances : améliorer le chargement des images et vidéos.
+    •   SEO approfondi : améliorer le référencement.
+    •   Accessibilité : renforcer l’application des normes RGAA.

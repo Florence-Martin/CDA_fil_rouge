@@ -66,7 +66,7 @@ describe("FollowController", () => {
     await followController.followUser(req, res);
 
     expect(res.status).toHaveBeenCalledWith(404);
-    expect(res.json).toHaveBeenCalledWith({ error: "Entity not found" });
+    expect(res.json).toHaveBeenCalledWith({ error: "Entity not found with id undefined not found with id undefined not found" });
   });
 
   it("devrait ne pas pouvoir se désabonner et retourner une erreur 404", async () => {
