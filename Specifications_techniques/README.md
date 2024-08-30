@@ -17,6 +17,8 @@
 
 ### API
 
+- [Choix Api Rest](./API/ApiRest.md)
+- [RBAC](./API/rbac.md)
 - [Stratégie de sécurisation API](./API/securisation-api.md)
 - [Choix stack API](./API/choix-stack-api.md)
 - [Diagramme de cas d'utilisation](./API/cas-utilisation.md)
