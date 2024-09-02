@@ -2,7 +2,7 @@
 
 # Variables
 BACKUP_DIR="../../backup"
-DB_CONTAINER_NAME="cda_fil_rouge_postgres_1"
+DB_CONTAINER_NAME="cda_fil_rouge-postgres-1"
 DB_USER="user_beginners"
 DB_NAME="db_beginners"
 DATE=$(date +"%Y%m%d_%H%M%S")
